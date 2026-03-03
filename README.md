@@ -47,3 +47,23 @@ Black-Scholes 8.91604 0 0.015
 Binomial (CRR) 8.91109 0.00495 1.27
 Monte Carlo (GBM) 8.94197 0.02594 35.22
 Monte Carlo (Antithetic) 8.92133 0.00529 17.89
+
+
+---
+
+## Build & Run (CMake)
+
+Requires:
+- CMake
+- C++17-compatible compiler (e.g., g++)
+
+From the repository root:
+
+```bash
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ ..
+cmake --build .
+
+./pricing_engine.exe
+
