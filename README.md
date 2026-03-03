@@ -10,6 +10,13 @@ A compact C++17 project implementing **multiple pricing methods** for a European
 - **Monte Carlo + Antithetic Variates** — variance reduction technique
 
 ---
+
+## Quantitative Focus
+
+This project compares numerical pricing methods against analytical benchmarks, 
+evaluating convergence behaviour, estimator bias, and runtime trade-offs.
+
+
 ## Model
 
 Risk-neutral geometric Brownian motion:
