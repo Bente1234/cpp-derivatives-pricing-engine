@@ -40,3 +40,10 @@ max(S_T - K, 0)
 ---
 
 ## Example Benchmark Output
+European Call Pricing (S0=100, K=100, r=0.02, sigma=0.2, T=1)
+
+Method Price AbsError Runtime(ms)
+Black-Scholes 8.91604 0 0.015
+Binomial (CRR) 8.91109 0.00495 1.27
+Monte Carlo (GBM) 8.94197 0.02594 35.22
+Monte Carlo (Antithetic) 8.92133 0.00529 17.89
