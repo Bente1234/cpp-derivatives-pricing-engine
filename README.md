@@ -2,11 +2,12 @@
 
 A compact C++17 project implementing **multiple pricing methods** for a European call option and benchmarking their **accuracy vs runtime**.
 
-Implemented methods:
-- **Black–Scholes (closed form)**
-- **CRR binomial tree** (numerical convergence to Black–Scholes)
-- **Monte Carlo (GBM)** under risk-neutral measure
-- **Monte Carlo with antithetic variates** (variance reduction)
+## Implemented Methods
+
+- **Black–Scholes (closed form)** — analytical benchmark  
+- **CRR Binomial Tree** — discrete-time approximation with convergence analysis  
+- **Monte Carlo (GBM)** — risk-neutral simulation  
+- **Monte Carlo + Antithetic Variates** — variance reduction technique
 
 ---
 ## Model
