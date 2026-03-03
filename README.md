@@ -9,18 +9,16 @@ Implemented methods:
 - **Monte Carlo with antithetic variates** (variance reduction)
 
 ---
-
 ## Model
 
-Under risk-neutral GBM:
-\[
-S_T = S_0 \exp\left((r - \tfrac{1}{2}\sigma^2)T + \sigma\sqrt{T}Z\right),\quad Z\sim\mathcal{N}(0,1)
-\]
+Risk-neutral geometric Brownian motion:
+
+S_T = S0 * exp((r - 0.5 * sigma^2) * T + sigma * sqrt(T) * Z),  
+where Z ~ N(0,1)
 
 European call payoff:
-\[
-\max(S_T - K, 0)
-\]
+
+max(S_T - K, 0)
 
 ---
 
